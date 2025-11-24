@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div id="typeLogos">
+        <img id="typeLogo" width="50px">
+        <img id="typeLogo2" width="50px">
+    </div>
+
+    <!-- containers center of screen -->
+    <div id="container-2">
+        <p id="flavourText"></p>
+        <div id="sprites">
+            <img id="pokemonSprite" style="display: inline;">
+        </div>
+        <!-- value of this input will be passed as pokemonName to Javascript -->
+        <input type="text" id="pokemonName" placeholder="Enter Pokémon">
+        <button onclick="findPokemon()" style="text-align: center;">Search</button>
+
+        <!-- type selection for  -->
+        <!-- <select name="type" id="type" >
+            <option value="1">normal</option>
+            <option value="water">water</option>
+            <option value="grass">grass</option>
+        </select>
+        <button onclick="filterType()">type</button>
+        <div id="pokemonBackground"></div> -->
+        <select name="" id="pokemonSelect">
+        </select>
+        <button onclick="getPokemon()">Find</button>
+    </div>
+
+   
+
+    <div id="container-3">
+        <div id="moves">
+            <p id="move1"></p>
+            <p id="move2"></p>
+            <p id="move3"></p>
+            <p id="move4"></p> 
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

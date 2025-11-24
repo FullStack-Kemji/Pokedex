@@ -1,0 +1,13 @@
+[
+    {
+        "name":"kemji",
+        "age": 17,
+        "potential":"high"
+    },
+
+    {
+        "name":"jason",
+        "age":16,
+        "potential":"high"
+    }
+]
